@@ -72,3 +72,4 @@ const inception4: Array<(string | number)[]> = []
   
 const inception5: Array<string[] | string | number[]> = [['test'], 'text', [1,2,3]]
 ```
+[[2-Objetos]]

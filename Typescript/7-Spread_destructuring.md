@@ -16,3 +16,4 @@ const [, valor] = arr // arr[1]
 
 let outroArr = [...resto]
 ```
+[[8-Promises]]

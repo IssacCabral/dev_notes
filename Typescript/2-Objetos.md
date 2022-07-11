@@ -31,3 +31,4 @@ let usersArray: user[] = []
 
 let usersArray2: Array<user> = []
 ```
+[[3-Enum]]

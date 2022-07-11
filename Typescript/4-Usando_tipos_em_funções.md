@@ -65,3 +65,4 @@ function loucura<T>(param1: T, param2: T): boolean{
 console.log(loucura("1", "1"))
 console.log(loucura<number>(1, 1))
 ```
+[[5-Tipos_personalizados]]

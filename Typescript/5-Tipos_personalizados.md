@@ -54,3 +54,4 @@ const example: Chaves = 'bornDate'
 
 console.log(typeof example) // string
 ```
+[[6-Tipo_never]]

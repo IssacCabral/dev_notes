@@ -42,3 +42,4 @@ function exemplo(arg1: any, arg2: any): boolean {
 
 }
 ```
+[[7-Spread_destructuring]]

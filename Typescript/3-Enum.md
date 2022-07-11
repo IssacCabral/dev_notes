@@ -81,3 +81,4 @@ enum Valores3{
 
 const temp: Valores3 = Valores3.Minimo
 ```
+[[4-Usando_tipos_em_funções]]

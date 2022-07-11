@@ -5,3 +5,4 @@ npm i ts-node-dev -D 						     // instala o ts-node-dev
 ts-node-dev --respawn server.ts // script pra rodar
 npm run dev 					// comando para rodar o programa
 ```
+[[1-Tipos]]
