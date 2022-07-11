@@ -1,0 +1,4 @@
+### Diferença entre container e máquina virtual
+Quando estamos utilizando máquinas virtuais, nós emulamos um novo sistema operacional e virtualizamos todo o seu hardware utilizando mais recursos da máquina _host_, o que não ocorre quando utilizamos _containers_, pois os recursos são compartilhados. O ganho óbvio disso é a capacidade de rodar mais _containers_ em um único _host_, se comparado com a quantidade que se conseguiria com máquinas virtuais.
+
+Outro ponto interessante na utilização de _containers_ é a portabilidade. Não importa em qual ambiente você criou o seu _container_, ele irá rodar em qualquer outro que possua, no nosso caso, o Docker instalado, seja ele no Linux, MacOS ou Windows. Você não precisa se preocupar com suas dependências, está tudo dentro do _container_
