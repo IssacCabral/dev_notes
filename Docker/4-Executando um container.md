@@ -111,3 +111,16 @@ docker attach [CONTAINER ID] // acessando novamente o container
 - O que é nginx?
 nginx nada mais é que um proxy reverso, que é bastante utilizado nos servidores para você disponibilizar a porta de acesso da sua aplicação,Onde vai bater uma porta do nginx, e ele vai fazer direcionamento para determinada pasta do seu projeto e onde tá rodando determinada porta. 
 
+- Para passar a porta para o nginx
+```bash
+docker run -d -p 80:80 nginx
+```
+
+Para executar um comando dentro de um container que já está em execução, é necessário recorrer à ajuda do comando Docker exec. Apenas ele pode iniciar qualquer comando nessas condições.
+
+```bash
+docker exec -it [CONTAINER ID] bash
+```
+
+
+
