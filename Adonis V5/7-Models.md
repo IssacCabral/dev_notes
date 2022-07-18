@@ -2,7 +2,7 @@
 Podemos passar o nome do modelo do singular que o Adonis já procura lá no banco, no plural
 - Se for passado a flag -m, ja é criado o _model_ e a _migration_
 ```bash
-node ace make:Model [tabela_que_o_model_se_relaciona]
+node ace make:model [tabela_que_o_model_se_relaciona]
 ```
 
 As classes de modelo trabalham com _snake_case_ então ,se eu informo:
