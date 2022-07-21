@@ -2,6 +2,9 @@
 ```bash
 yarn create adonis-ts-app hello-world
 ```
+
+uma nova linha está sendo adicionada
+
 **Execução**
 ```bash
 node ace serve --watch
