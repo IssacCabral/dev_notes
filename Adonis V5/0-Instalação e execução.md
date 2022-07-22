@@ -4,6 +4,7 @@ yarn create adonis-ts-app hello-world
 ```
 
 uma nova linha está sendo adicionada
+outra linha adicionada
 
 **Execução**
 ```bash
