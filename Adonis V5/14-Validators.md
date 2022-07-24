@@ -47,3 +47,32 @@ export default class MessagesCustom {
 31  }
 32}
 ```
+
+No validator de produto foi feito algo diferente:
+
+Nós podemos falar qual é o mínimo que esse array tem que ter. Ou seja, eu quero que todo produto contenha no mínimo 1 categoria. E dentro de members, eu sei que dentro desse array eu vou receber um arrray de strings, e verifico se existe esse name especificado em categories dentro do array, lá na tabela de categorias. 
+
+Então se eu especificar um name como: 'Alimentícios' e não tiver essa categoria cadastrada, será acusado um erro informando que não encontrou esse parâmetro dentro dessa tabela. 
+
+```ts
+public schema = schema.create({
+    name: schema.string({ trim: true }, [
+      rules.maxLength(50),
+      rules.minLength(3),
+      rules.regex(/^[ a-zA-ZÀ-ÿ\u00f1\u00d1]*$/g),
+    ]),
+
+    code: schema.string({ trim: true }, [
+      rules.unique({ table: 'products', column: 'code' }),
+      rules.maxLength(250)
+    ]),
+
+    categories: schema
+      .array([rules.minLength(1)])
+      .members(
+        schema.string({trim: true}, [rules.exists({table: 'categories', column: 'name'})])
+      )
+
+  })
+```
+
