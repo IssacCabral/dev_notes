@@ -4,8 +4,8 @@ yarn create adonis-ts-app hello-world
 ```
 
 uma nova linha está sendo adicionada
-outra linha adicionada
-xxx
+apaguei algumas linhas
+
 **Execução**
 ```bash
 node ace serve --watch
