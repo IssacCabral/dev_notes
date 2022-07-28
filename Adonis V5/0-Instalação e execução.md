@@ -5,6 +5,7 @@ yarn create adonis-ts-app hello-world
 
 uma nova linha está sendo adicionada
 apaguei algumas linhas
+inseri uma nova linha
 
 **Execução**
 ```bash
